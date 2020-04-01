@@ -1,0 +1,12 @@
+.blog-or-archive {
+  .entries {
+    article {
+      margin-bottom: 100px;
+    }
+  }
+  .entries:first-child {
+    h2 {
+      margin-top: 0;
+    }
+  }
+}

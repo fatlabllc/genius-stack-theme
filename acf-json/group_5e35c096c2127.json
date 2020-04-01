@@ -1,0 +1,1436 @@
+{
+    "key": "group_5e35c096c2127",
+    "title": "Flexible Content",
+    "fields": [
+        {
+            "key": "field_5e35c0a15c5fd",
+            "label": "Flexible Content",
+            "name": "flexible_content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5e67e68b49268": {
+                    "key": "layout_5e67e68b49268",
+                    "name": "content-slider",
+                    "label": "Page Hero or Slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e67e6a849269",
+                            "label": "Images",
+                            "name": "hero_images",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Slide",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e67e6ba4926a",
+                                    "label": "image",
+                                    "name": "hero_image",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_5e67e6ce4926b",
+                                    "label": "Text Overlay",
+                                    "name": "hero_text_overlay",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "basic",
+                                    "media_upload": 0,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_5e67e6e44926c",
+                                    "label": "Show CTA Button",
+                                    "name": "show_cta_button",
+                                    "type": "true_false",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "message": "",
+                                    "default_value": 0,
+                                    "ui": 0,
+                                    "ui_on_text": "",
+                                    "ui_off_text": ""
+                                },
+                                {
+                                    "key": "field_5e67e6f94926d",
+                                    "label": "CTA Button Link",
+                                    "name": "hero_cta_button_link",
+                                    "type": "link",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array"
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_5e6d29d4ee262",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce577628b7",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e35c7ca9d04a": {
+                    "key": "layout_5e35c7ca9d04a",
+                    "name": "content-with-image",
+                    "label": "Content With Image",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e35c8d5d7bc1",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e35c7e09d04b",
+                            "label": "Title",
+                            "name": "title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e35c882b2aa5",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "image",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_5e35ca77c9a49",
+                            "label": "Image Side",
+                            "name": "image_side",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "Left": "Left",
+                                "Right": "Right"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e35d46c363c5",
+                            "label": "Image Width",
+                            "name": "image_width",
+                            "type": "select",
+                            "instructions": "Determines how the content area will be displayed, giving the image half the content area or just one third.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "50": "One Half",
+                                "33": "One Third"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e6806a6ae410",
+                            "label": "Make Image Corners Rounded",
+                            "name": "rounded_corners",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e35c8199d04c",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5e6d2a652c639",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce5fc628b8",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e6d594661fe5",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e35c0a83e595": {
+                    "key": "layout_5e35c0a83e595",
+                    "name": "content-cta",
+                    "label": "CTA",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e35c0c45c5fe",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e35c10f5c5ff",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e35c12c5c600",
+                            "label": "Button \/ Target",
+                            "name": "button_target",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array"
+                        },
+                        {
+                            "key": "field_5e6d2a5b2c638",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce612628b9",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e35dfcc9e56c": {
+                    "key": "layout_5e35dfcc9e56c",
+                    "name": "testimonial-slider",
+                    "label": "Testimonial Slider",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e6ce7343f2df",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e35e00f9e56d",
+                            "label": "Testimonials to Display",
+                            "name": "testimonials_to_display",
+                            "type": "relationship",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "post_type": [
+                                "testimonial"
+                            ],
+                            "taxonomy": "",
+                            "filters": [
+                                "search"
+                            ],
+                            "elements": "",
+                            "min": 1,
+                            "max": "",
+                            "return_format": "id"
+                        },
+                        {
+                            "key": "field_5e6d320c2c63c",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce62b628bb",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e6284d373bd1": {
+                    "key": "layout_5e6284d373bd1",
+                    "name": "content-wysiwyg",
+                    "label": "WYSIWYG Block(s)",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e6ce76c3f2e0",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e6e8d956319d",
+                            "label": "Top Content",
+                            "name": "top_content",
+                            "type": "wysiwyg",
+                            "instructions": "Optional: Content placed here will appear above the WYSIWYG blocks, best used when you have more than one content block.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5e6284ee73bd2",
+                            "label": "Content Block(s)",
+                            "name": "content_blocks",
+                            "type": "repeater",
+                            "instructions": "Add content blocks, as many as you like. Content blocks will automatically size and position themselves.\r\n\r\n1 Content Block will stretch full content area of screen\r\n2 Content Blocks will  produce 50\/50 (2) columns\r\n3 Content Blocks will  produce 33\/33\/33 (3) columns\r\n4 Content Blocks will  produce 25\/25\/25\/24 (4) columns\r\n\r\nAfter the forth box a new row will be created, maintaining the maximum 4 column layout.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Content Box",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e62858973bd3",
+                                    "label": "Box Content",
+                                    "name": "box_content",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_5e6d32172c63d",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce645628bc",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e6d3353b1cc2",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e56b0f70c1b9": {
+                    "key": "layout_5e56b0f70c1b9",
+                    "name": "content-personnel-bio",
+                    "label": "Personnel Biography Blocks",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e6ce77d3f2e1",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e56b21c0c1be",
+                            "label": "Biographies",
+                            "name": "biographies",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Bio",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e56b1a20c1bd",
+                                    "label": "Headshot",
+                                    "name": "headshot",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "array",
+                                    "preview_size": "medium",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": ""
+                                },
+                                {
+                                    "key": "field_5e56b1780c1ba",
+                                    "label": "Name",
+                                    "name": "name",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e56b1810c1bb",
+                                    "label": "Title",
+                                    "name": "title",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e56b1890c1bc",
+                                    "label": "Biography",
+                                    "name": "biography",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                },
+                                {
+                                    "key": "field_5e6841e98256b",
+                                    "label": "LinkedIn URL",
+                                    "name": "linkin_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e683cb3374b7",
+                                    "label": "Facebook URL",
+                                    "name": "facebook_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e683c85374b5",
+                                    "label": "Twitter URL",
+                                    "name": "twitter_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e683cc7374b8",
+                                    "label": "Instagram URL",
+                                    "name": "instagram_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e683cd6374b9",
+                                    "label": "YouTube Url",
+                                    "name": "youtube_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e683caf374b6",
+                                    "label": "Blog URL",
+                                    "name": "blog_url",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_5e6d321e2c63e",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce665628bd",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e627c10cd4a5": {
+                    "key": "layout_5e627c10cd4a5",
+                    "name": "blog-post-boxes",
+                    "label": "Blog\/News Posts",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e6ce7953f2e2",
+                            "label": "Background Color",
+                            "name": "background_color",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "White": "White",
+                                "Light Gray": "Light Gray",
+                                "Brand Color 1": "Brand Color 1",
+                                "Brand Color 2": "Brand Color 2",
+                                "Brand Color 3": "Brand Color 3"
+                            },
+                            "default_value": [
+                                "White"
+                            ],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e627c10cd4a6",
+                            "label": "Intro Text",
+                            "name": "related_posts_intro_text",
+                            "type": "wysiwyg",
+                            "instructions": "Displayed above the listing of posts",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5e7fc69981bac",
+                            "label": "Hide Date",
+                            "name": "hide_date",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e7fc6ad81bad",
+                            "label": "Hide Author",
+                            "name": "hide_author",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e7fc6d081bae",
+                            "label": "Link Author",
+                            "name": "link_author",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_5e7fc6ad81bad",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e627c10cd4a7",
+                            "label": "How Many Posts to Display",
+                            "name": "how_many_posts_to_display",
+                            "type": "number",
+                            "instructions": "How many related posts should be displayed? This sets the maximum number of posts to display. If a number greater is entered than there are posts that meet the criteria, then the display will be limited to available posts. A minimum of 3 will be displayed as set by design and you can increase that number in increments of 3 (even rows in the site design).",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 3,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "min": "",
+                            "max": "",
+                            "step": 1
+                        },
+                        {
+                            "key": "field_5e627c10cd4a8",
+                            "label": "Post Category",
+                            "name": "post_category",
+                            "type": "taxonomy",
+                            "instructions": "Choose the category(ies)of posts that should display here.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "category",
+                            "field_type": "checkbox",
+                            "add_term": 0,
+                            "save_terms": 0,
+                            "load_terms": 0,
+                            "return_format": "id",
+                            "multiple": 0,
+                            "allow_null": 0
+                        },
+                        {
+                            "key": "field_5e627c10cd4a9",
+                            "label": "Post Tags",
+                            "name": "post_tags",
+                            "type": "taxonomy",
+                            "instructions": "Optional. You can further refine your related article display by choosing a tag that the posts must belong to.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "taxonomy": "post_tag",
+                            "field_type": "checkbox",
+                            "allow_null": 0,
+                            "add_term": 0,
+                            "save_terms": 0,
+                            "load_terms": 0,
+                            "return_format": "id",
+                            "multiple": 0
+                        },
+                        {
+                            "key": "field_5e627ee06bdfa",
+                            "label": "Post Sorting",
+                            "name": "post_sorting",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "date": "Chronological Descending",
+                                "rand": "Random"
+                            },
+                            "default_value": [],
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_5e6d322b2c63f",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "message",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
+                            "new_lines": "wpautop",
+                            "esc_html": 0
+                        },
+                        {
+                            "key": "field_5e6ce684628bf",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5e6e52d20f947": {
+                    "key": "layout_5e6e52d20f947",
+                    "name": "content-accordion",
+                    "label": "Accordion",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5e6e53e10f94a",
+                            "label": "Accordion Title",
+                            "name": "accordion_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_5e6e54010f94b",
+                            "label": "Accordion Description",
+                            "name": "accordion_description",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_5e6e54120f94c",
+                            "label": "accordion",
+                            "name": "accordion",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "collapsed": "",
+                            "min": 0,
+                            "max": 0,
+                            "layout": "block",
+                            "button_label": "Add Accordion Row",
+                            "sub_fields": [
+                                {
+                                    "key": "field_5e6e54230f94d",
+                                    "label": "Item Title",
+                                    "name": "accordion_item_label",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "maxlength": ""
+                                },
+                                {
+                                    "key": "field_5e6e54360f94e",
+                                    "label": "Item Content",
+                                    "name": "accordion_item_content",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "tabs": "all",
+                                    "toolbar": "full",
+                                    "media_upload": 1,
+                                    "delay": 0
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Page Section",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "post_template",
+                "operator": "==",
+                "value": "page-templates\/right-sidebarpage.php"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1585489617
+}

@@ -1,0 +1,12 @@
+.content-with-image {
+  .text-container .content {
+    display: table;
+    height: 100%;
+    margin-bottom: 100px;
+
+    .content-cell {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}

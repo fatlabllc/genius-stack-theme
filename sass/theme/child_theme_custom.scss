@@ -1,0 +1,134 @@
+//Universal
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 700;
+}
+
+// Home Page
+.home-list{
+  ul {
+    list-style: none;
+    padding:0;
+  }
+  li {
+    padding-left: 50px;
+  }
+  li:before {
+    content: "\f046"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: -50px;
+    width: 50px;
+    color: #254e58;
+  }
+}
+
+//
+.setup-list {
+  .wysiwyg-content {
+    padding-right: 20px;
+    ul {
+      list-style: none;
+      padding:0;
+      padding-left: 25px;
+      li {
+        margin-bottom: 50px;
+      }
+      li:before {
+        content: "\f0da"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: -25px;
+        width: 50px;
+        color: #88bdbc;
+      }
+    }
+    a {
+      text-decoration: underline;
+    }
+    h3 {
+      margin-top: -30px;
+      margin-bottom:7px;
+      line-height: 30px;
+      font-weight: 700;
+    }
+  }
+}
+.who-should {
+  .wysiwyg-content {
+    ul {
+      list-style: none;
+      padding:0;
+      padding-left: 25px;
+      li {
+        margin-bottom: 15px;
+      }
+      li:before {
+        content: "\f0da"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        display: inline-block;
+        font-size: 30px;
+        margin-left: -25px;
+        width: 50px;
+        color: #88bdbc;
+      }
+    }
+  }
+}
+.logo-text {
+  margin-top: -125px;
+  p {
+    font-size: 12px;
+  }
+}
+.content-with-image.combined-logos {
+  img {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+// Right Sidebar
+#right-sidebar {
+  h4 {
+    margin-bottom: 20px;
+  }
+  ul {
+    li.current-menu-item > a {
+      color: #88bdbc;
+    }
+    li.menu-item-has-children:before {
+      content: "\f149"; /* FontAwesome Unicode */
+      font-family: FontAwesome;
+      display: inline-block;
+      font-size: 17px;
+      margin-left: -15px;
+      width: 20px;
+      color: #88bdbc;
+    }
+    padding-left: 0;
+    margin: 30px 0;
+    li {
+      list-style: none;
+      font-weight: bold;
+      ul {
+        padding-left: 20px;
+        li {
+          font-weight: normal;
+        }
+        li.current-menu-item:before {
+          content: "\f054"; /* FontAwesome Unicode */
+          font-family: FontAwesome;
+          display: inline-block;
+          font-size: 17px;
+          margin-left: -15px;
+          width: 20px;
+          color: #88bdbc;
+        }
+      }
+    }
+  }
+}
+
+

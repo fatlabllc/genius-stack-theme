@@ -1,0 +1,161 @@
+body {
+  color: $default-gray;
+  font-size: 20px;
+  background-color: $default-light-gray;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 25px;
+}
+h2,h3,h4,h5,h6 {
+  margin-top: 25px;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 52px;
+}
+h2 {
+  font-size: 34px;
+  line-height: 40px;
+}
+h3 {
+  font-size: 30px;
+  line-height: 46px;
+}
+h4 {
+  font-size: 26px;
+  line-height: 42px;
+}
+h5 {
+  font-size: 22px;
+  line-height: 28px;
+}
+h6 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+p, ul li, ol li {
+  font-size: 18px;
+  line-height: 28px;
+}
+ul li, ol li {
+  margin-bottom: 20px;
+}
+.wrapper {
+  padding: 125px 0 0 0;
+}
+#full-width-page-wrapper,#page-wrapper {
+  background-color: #fff;
+}
+.row-pad {
+  padding:75px 0;
+}
+.reduce-bottom-pad {
+  padding-bottom: 0;
+}
+a {
+  letter-spacing: 1px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+// button
+.button-container {
+  padding:25px 0;
+}
+a.button {
+  padding:10px 25px;
+  color: $white;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  box-shadow: $boxshadow;
+}
+a.button:hover {
+  background-color: $white;
+  box-shadow: none;
+}
+
+.boxshadow {
+  box-shadow: $boxshadow;
+}
+
+.rounded-corners {
+  border-radius: 15px;
+}
+
+// section backgrounds
+.bgcolor1 {
+  background-color: $white;
+}
+.bgcolor2 {
+  background-color: $default-light-gray;
+}
+
+// first and last row padding
+.first-row {
+  padding-top: 0;
+}
+
+// social media icon displays
+.social-media {
+  padding: 15px 0;
+  ul {
+    padding-left:0;
+    li {
+      margin-left:0;
+      display: inline-block;
+      padding:0 10px;
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+// breadcrumbs (provided by Yoast)
+#breadcrumbs {
+  p.breadcrumbs {
+    padding-left: 0px;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+}
+.rightsidebar {
+  #breadcrumbs {
+    p.breadcrumbs {
+      padding-left: 15px;
+    }
+  }
+}
+
+// Post details
+.post-meta {
+  margin-bottom: 10px;
+  .post-date,.post-author {
+    margin:0 10px 0 0;
+    font-size: 16px;
+  }
+}
+// post featured image
+.featured-image {
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+  }
+}
+//sidebar
+#right-sidebar {
+  h4.widget-title {
+    margin-top:0;
+  }
+  .blog-archive {
+    ul {
+      margin-left: 25px;
+
+    }
+  }
+}
