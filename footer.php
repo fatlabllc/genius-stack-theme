@@ -59,22 +59,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php echo social_media();?>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12 footer-logos">
-				<?php if( have_rows('flws_footer_logos','option') ): ?>
-					<ul class="logos">
-						<?php while( have_rows('flws_footer_logos','option') ): the_row();
-							// vars
-							$image = get_sub_field('flws_footer_logo','option');
-							?>
-							<li class="logo">
-								<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt'] ?>">
-							</li>
-						<?php endwhile; ?>
-					</ul>
-				<?php endif; ?>
-			</div>
-		</div>
         <div class="row">
             <div class="col-md-12 copyright">
                 <p>&#169; <?php echo date("Y");?> <?php the_field('flws_copyright_line','option');?></p>
