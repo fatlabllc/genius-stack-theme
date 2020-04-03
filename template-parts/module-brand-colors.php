@@ -30,4 +30,9 @@
     .bgcolor3 {background-color: <?php echo $colors[3];?>;}
     .bgcolor4 {background-color: <?php echo $colors[4];?>;}
     .bgcolor5 {background-color: <?php echo $colors[5];?>;}
+    /*forms*/
+    .gform_wrapper input {border:1px solid <?php echo $colors[0];?>}
+    .gform_wrapper label {color:<?php echo $colors[0];?>}
+    .gform_wrapper .gform_button {border:1px solid <?php echo $colors[1];?>;color:#fff;background-color:<?php echo $colors[0];?>;padding:5px 25px; border-radius: 25px}
+    .gform_wrapper .gform_button:hover {border:1px solid <?php echo $colors[0];?>;color:#fff;background-color:<?php echo $colors[1];?>;}
 </style>
