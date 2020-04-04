@@ -15,10 +15,13 @@
       font-size: 46px;
       text-align: center;
       display:none;
-      background: rgba(255, 255, 255, 0.9);
+      background: rgba(255, 255, 255, 0.7);
       padding:25px;
       line-height: 50px;
     }
+  }
+  .cta {
+	  margin-top: 20px;
   }
 }
 //only show borders if hero/slider is in first position

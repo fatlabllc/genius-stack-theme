@@ -13,7 +13,6 @@
                     $count ++;
                     $image = get_sub_field( 'hero_image' );
                     $text  = get_sub_field( 'hero_text_overlay' );
-                    $text  = str_replace( array( '<p>', '</p>' ), '', $text );
                     include( locate_template( 'template-parts/flexible-content/inc/carousel-slider.php', false, false ) );
                 endwhile;
             endif;

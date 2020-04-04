@@ -10,7 +10,6 @@ if($default_header){
 	<img src="<?php echo $image['url']; ?>" alt="<?php echo $alt_text; ?>" class="img-fluid">
 	<div class="carousel-caption d-md-block align-middle">
 		<?php if($text){?>
-			<p class="">
 			<?php echo $text;?>
 			<?php
 			if(get_sub_field('show_cta_button')){
@@ -24,7 +23,6 @@ if($default_header){
 					<a class="red-button button" href="<?php echo esc_url( $button_url ); ?>" target="<?php echo esc_attr( $button_target ); ?>"><?php echo esc_html( $button_title ); ?></a>
 				</div>
 			<?php }?>
-			</p>
 		<?php }?>
 	</div>
 	<div id="mobile-hero-text">
