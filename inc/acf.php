@@ -51,7 +51,7 @@ function load_fcf_template($subdir = '', $vars = null) {
 
 // make wysiwyg editor small to make edit screen more visually manageable 
 add_filter('acf-autosize/wysiwyg/min-height', function() {
-	return 100;
+	return 150;
 });
 
 // add custom super simple tinymce toolbar for use with genius stack
