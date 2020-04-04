@@ -26,7 +26,7 @@
             "label": "Banner",
             "name": "hero_images",
             "type": "repeater",
-            "instructions": "",
+            "instructions": "Here you can customize the page banner\/hero for this specific page. Adding a single banner will simply display that image at the top of the page. Adding multiple banner images will create a slider. If creating a slider it is import that all your images be the same height to avoid a \"jumping\" effect.",
             "required": 0,
             "conditional_logic": [
                 [
@@ -45,15 +45,15 @@
             "collapsed": "",
             "min": 0,
             "max": 0,
-            "layout": "row",
-            "button_label": "",
+            "layout": "block",
+            "button_label": "Add Banner Image",
             "sub_fields": [
                 {
                     "key": "field_5e713a650b002",
                     "label": "Image",
                     "name": "hero_image",
                     "type": "image",
-                    "instructions": "",
+                    "instructions": "We recommend using an image with a width of about 1200px so that it looks good on both and small screens. The height of the image will be respected though the size of the image will adjust responsively to larger and smaller screens.",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -77,7 +77,7 @@
                     "label": "Text Overlay",
                     "name": "hero_text_overlay",
                     "type": "wysiwyg",
-                    "instructions": "",
+                    "instructions": "This is an optional field. Placing text here will appear on top of your banner image.",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -87,7 +87,7 @@
                     },
                     "default_value": "",
                     "tabs": "all",
-                    "toolbar": "full",
+                    "toolbar": "genius_stack_simple",
                     "media_upload": 0,
                     "delay": 0
                 },
@@ -191,5 +191,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1584481923
+    "modified": 1586036418
 }
