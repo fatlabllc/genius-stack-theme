@@ -48,3 +48,8 @@ function load_fcf_template($subdir = '', $vars = null) {
 		//TODO: Log missing template. Or scream.
 	}
 }
+
+// make wysiwyg editor small to make edit screen more visually manageable 
+add_filter('acf-autosize/wysiwyg/min-height', function() {
+	return 100;
+});
