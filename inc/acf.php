@@ -53,3 +53,12 @@ function load_fcf_template($subdir = '', $vars = null) {
 add_filter('acf-autosize/wysiwyg/min-height', function() {
 	return 100;
 });
+
+// add custom super simple tinymce toolbar for use with genius stack
+add_filter( 'acf/fields/wysiwyg/toolbars' , 'my_toolbars'  );
+function my_toolbars( $toolbars )
+{
+	$toolbars['Genius Stack Simple' ] = array();
+	$toolbars['Genius Stack Simple' ][1] = array('bold' , 'italic' , 'underline' , 'forecolor');
+	return $toolbars;
+}
