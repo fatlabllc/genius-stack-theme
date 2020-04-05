@@ -35,4 +35,8 @@
     .gform_wrapper label {color:<?php echo $colors[0];?>}
     .gform_wrapper .gform_button {border:1px solid <?php echo $colors[1];?>;color:#fff;background-color:<?php echo $colors[0];?>;padding:5px 25px; border-radius: 25px}
     .gform_wrapper .gform_button:hover {border:1px solid <?php echo $colors[0];?>;color:#fff;background-color:<?php echo $colors[1];?>;}
+    /* testimonials */
+    #testimonials .fa {color:<?php echo $colors[2];?>}
+    #testimonials .name {color:<?php echo $colors[0];?>}
+    #testimonials .company {color:<?php echo $colors[1];?>}
 </style>

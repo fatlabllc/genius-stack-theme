@@ -1,0 +1,24 @@
+#testimonials{
+	min-height: 300px;
+	padding-left:50px;
+	padding-right: 50px;
+	.quote p{
+		font-size: 25px;
+		line-height: 32px;
+		font-style: italic;
+		.fa {
+			font-size: 50px;
+			padding-right:25px;
+		}
+	}
+	.name,.company {
+		text-align: right;
+	}
+	.name {
+		font-weight: bold;
+		font-size: 17px
+	}
+	.company {
+		font-size: 15px;
+	}
+}

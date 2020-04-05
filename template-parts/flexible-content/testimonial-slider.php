@@ -1,27 +1,29 @@
 <?php
 $testimonials = get_sub_field('testimonials_to_display');
 ?>
-<div class="container">
-	<div id="testimonials" class="carousel slide" data-interval="5000" data-ride="carousel">
+<div id="testimonials" class="container-fluid">
+	<div id="testimonials" class="carousel slide" data-interval="7000" data-ride="carousel">
 		<!-- Wrapper for carousel items -->
 		<div class="carousel-inner">
 
 			<?php if( $testimonials): ?>
 					<?php $count = 0; foreach( $testimonials as $t ):
 					$quote = get_field('testimonial_quote', $t);
+					$quote = str_replace(array('<p>','</p>'),'',$quote);
 					$name = get_field('testimonial_name', $t);
 					$title = get_field('testimonial_title', $t);
+					$company = get_field('testimonial_company', $t);
 					$count++;
 					?>
 					<div class="carousel-item <?php if($count == 1) {echo 'active';}?>">
 						<div class="quote">
-							<h4><?php echo $quote;?></h4>
+							<p><i class="fa fa-quote-left" aria-hidden="true"></i><?php echo $quote;?></p>
 						</div>
 						<div class="name">
-							<?php echo $name;?>
+							<?php echo $name; if($title){echo ', '.$title;}?>
 						</div>
-						<div class="title">
-							<?php echo $title;?>
+						<div class="company">
+							<?php if($company){echo $company;};?>
 						</div>
 					</div>
 				<?php endforeach; ?>
