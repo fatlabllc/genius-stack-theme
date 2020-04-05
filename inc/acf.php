@@ -62,3 +62,6 @@ function my_toolbars( $toolbars )
 	$toolbars['Genius Stack Simple' ][1] = array('bold' , 'italic' , 'underline' , 'forecolor');
 	return $toolbars;
 }
+
+// speed up editro load times by removing the wp_meta_box
+add_filter('acf/settings/remove_wp_meta_box', '__return_true');
