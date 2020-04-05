@@ -140,7 +140,7 @@
             "label": "Advanced Options",
             "name": "",
             "type": "accordion",
-            "instructions": "The following controls allow you to fine tune your website but may bot be necessary in many cases.",
+            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -157,7 +157,7 @@
             "label": "Custom CSS Classes",
             "name": "custom_css_classes",
             "type": "text",
-            "instructions": "Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS. <a href=\"https:\/\/thegeniusstack.com\/documentation\/\" target=\"_blank\">See documentation here for more info<\/a>",
+            "instructions": "Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS. \r\n<a href=\"https:\/\/thegeniusstack.com\/docs\/layout-and-content\/advanced-controls\/\" target=\"_blank\">Learn more here<\/a>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -191,5 +191,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1586036418
+    "modified": 1586046597
 }
