@@ -3,10 +3,27 @@
     "title": "Advanced Page Options",
     "fields": [
         {
+            "key": "field_5e89124657f2c",
+            "label": "Advanced Page Options",
+            "name": "",
+            "type": "accordion",
+            "instructions": "Click here to open advanced controls for specifically this page. In most cases you will not need this but there may be times where you need to add page specific code snippets.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
             "key": "field_5e77fc5e166a5",
             "label": "Page Specific Scripts",
             "name": "page_specific_scripts",
-            "type": "textarea",
+            "type": "acf_code_field",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -17,9 +34,8 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": 5,
-            "new_lines": ""
+            "mode": "htmlmixed",
+            "theme": "elegant"
         }
     ],
     "location": [
@@ -46,5 +62,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1584921739
+    "modified": 1586041529
 }
