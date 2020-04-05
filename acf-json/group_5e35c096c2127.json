@@ -695,7 +695,7 @@
                             "label": "Top Content",
                             "name": "top_content",
                             "type": "wysiwyg",
-                            "instructions": "Optional: Content placed here will appear above the WYSIWYG blocks, best used when you have more than one content block.",
+                            "instructions": "Content placed here will appear above the WYSIWYG blocks that you create below. If you only need one block of content, use this one. This one will stretch the whole width of the page no matter how many blocks you add below. <br\/><br\/>The blocks you add below will be the ones that create automatic columns.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -714,7 +714,7 @@
                             "label": "Content Block(s)",
                             "name": "content_blocks",
                             "type": "repeater",
-                            "instructions": "Add content blocks, as many as you like. Content blocks will automatically size and position themselves.\r\n\r\n1 Content Block will stretch full content area of screen\r\n2 Content Blocks will  produce 50\/50 (2) columns\r\n3 Content Blocks will  produce 33\/33\/33 (3) columns\r\n4 Content Blocks will  produce 25\/25\/25\/24 (4) columns\r\n\r\nAfter the forth box a new row will be created, maintaining the maximum 4 column layout.",
+                            "instructions": "Add content blocks, as many as you like. Content blocks will automatically size and position themselves.\r\n<br\/>\r\n<ul>\r\n<li>1 Content Block will stretch full content area of screen<li>\r\n<li>2 Content Blocks will  produce 50\/50 (2 columns)<li>\r\n<li>3 Content Blocks will  produce 33\/33\/33 (3 columns)<li>\r\n<li>4 Content Blocks will  produce 25\/25\/25\/24 (4 columns<li>\r\n<\/ul>\r\nAfter the forth box a new row will be created, maintaining the maximum 4 column layout.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -726,7 +726,7 @@
                             "min": 0,
                             "max": 0,
                             "layout": "block",
-                            "button_label": "Add Content Box",
+                            "button_label": "Add Content Block",
                             "sub_fields": [
                                 {
                                     "key": "field_5e62858973bd3",
@@ -1252,5 +1252,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1586047002
+    "modified": 1586047604
 }
