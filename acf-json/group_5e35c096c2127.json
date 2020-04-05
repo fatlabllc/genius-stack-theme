@@ -124,8 +124,8 @@
                             "key": "field_5e6d29d4ee262",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -133,9 +133,28 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_5e8927e097903",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
                         },
                         {
                             "key": "field_5e6ce577628b7",
@@ -331,8 +350,8 @@
                             "key": "field_5e6d2a652c639",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -340,28 +359,9 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
-                        },
-                        {
-                            "key": "field_5e6ce5fc628b8",
-                            "label": "Custom CSS Classes",
-                            "name": "custom_css_classes",
-                            "type": "text",
-                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
                         },
                         {
                             "key": "field_5e6d594661fe5",
@@ -381,6 +381,25 @@
                             "ui": 0,
                             "ui_on_text": "",
                             "ui_off_text": ""
+                        },
+                        {
+                            "key": "field_5e6ce5fc628b8",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
                         }
                     ],
                     "min": "",
@@ -460,8 +479,8 @@
                             "key": "field_5e6d2a5b2c638",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -469,9 +488,28 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_5e8927c297902",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
                         },
                         {
                             "key": "field_5e6ce612628b9",
@@ -561,8 +599,8 @@
                             "key": "field_5e6d320c2c63c",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -570,9 +608,28 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_5e89279897901",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
                         },
                         {
                             "key": "field_5e6ce62b628bb",
@@ -696,8 +753,8 @@
                             "key": "field_5e6d32172c63d",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -705,28 +762,9 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
-                        },
-                        {
-                            "key": "field_5e6ce645628bc",
-                            "label": "Custom CSS Classes",
-                            "name": "custom_css_classes",
-                            "type": "text",
-                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
                         },
                         {
                             "key": "field_5e6d3353b1cc2",
@@ -746,282 +784,9 @@
                             "ui": 0,
                             "ui_on_text": "",
                             "ui_off_text": ""
-                        }
-                    ],
-                    "min": "",
-                    "max": ""
-                },
-                "layout_5e56b0f70c1b9": {
-                    "key": "layout_5e56b0f70c1b9",
-                    "name": "content-personnel-bio",
-                    "label": "Personnel Biography Blocks",
-                    "display": "block",
-                    "sub_fields": [
-                        {
-                            "key": "field_5e6ce77d3f2e1",
-                            "label": "Background Color",
-                            "name": "background_color",
-                            "type": "select",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "choices": {
-                                "White": "White",
-                                "Light Gray": "Light Gray",
-                                "Brand Color 1": "Brand Color 1",
-                                "Brand Color 2": "Brand Color 2",
-                                "Brand Color 3": "Brand Color 3"
-                            },
-                            "default_value": [
-                                "White"
-                            ],
-                            "allow_null": 0,
-                            "multiple": 0,
-                            "ui": 0,
-                            "return_format": "value",
-                            "ajax": 0,
-                            "placeholder": ""
                         },
                         {
-                            "key": "field_5e56b21c0c1be",
-                            "label": "Biographies",
-                            "name": "biographies",
-                            "type": "repeater",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "collapsed": "",
-                            "min": 0,
-                            "max": 0,
-                            "layout": "block",
-                            "button_label": "Add Bio",
-                            "sub_fields": [
-                                {
-                                    "key": "field_5e56b1a20c1bd",
-                                    "label": "Headshot",
-                                    "name": "headshot",
-                                    "type": "image",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "return_format": "array",
-                                    "preview_size": "medium",
-                                    "library": "all",
-                                    "min_width": "",
-                                    "min_height": "",
-                                    "min_size": "",
-                                    "max_width": "",
-                                    "max_height": "",
-                                    "max_size": "",
-                                    "mime_types": ""
-                                },
-                                {
-                                    "key": "field_5e56b1780c1ba",
-                                    "label": "Name",
-                                    "name": "name",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e56b1810c1bb",
-                                    "label": "Title",
-                                    "name": "title",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e56b1890c1bc",
-                                    "label": "Biography",
-                                    "name": "biography",
-                                    "type": "wysiwyg",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "tabs": "all",
-                                    "toolbar": "full",
-                                    "media_upload": 1,
-                                    "delay": 0
-                                },
-                                {
-                                    "key": "field_5e6841e98256b",
-                                    "label": "LinkedIn URL",
-                                    "name": "linkin_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e683cb3374b7",
-                                    "label": "Facebook URL",
-                                    "name": "facebook_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e683c85374b5",
-                                    "label": "Twitter URL",
-                                    "name": "twitter_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e683cc7374b8",
-                                    "label": "Instagram URL",
-                                    "name": "instagram_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e683cd6374b9",
-                                    "label": "YouTube Url",
-                                    "name": "youtube_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                },
-                                {
-                                    "key": "field_5e683caf374b6",
-                                    "label": "Blog URL",
-                                    "name": "blog_url",
-                                    "type": "text",
-                                    "instructions": "",
-                                    "required": 0,
-                                    "conditional_logic": 0,
-                                    "wrapper": {
-                                        "width": "",
-                                        "class": "",
-                                        "id": ""
-                                    },
-                                    "default_value": "",
-                                    "placeholder": "",
-                                    "prepend": "",
-                                    "append": "",
-                                    "maxlength": ""
-                                }
-                            ]
-                        },
-                        {
-                            "key": "field_5e6d321e2c63e",
-                            "label": "Advanced Options",
-                            "name": "",
-                            "type": "message",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
-                        },
-                        {
-                            "key": "field_5e6ce665628bd",
+                            "key": "field_5e6ce645628bc",
                             "label": "Custom CSS Classes",
                             "name": "custom_css_classes",
                             "type": "text",
@@ -1257,8 +1022,8 @@
                             "key": "field_5e6d322b2c63f",
                             "label": "Advanced Options",
                             "name": "",
-                            "type": "message",
-                            "instructions": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -1266,9 +1031,28 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "message": "The following controls allow you to fine tune your website but may bot be necessary in many cases. <a href=\"#\" target=\"_blank\">See documentation here for more info<\/a>",
-                            "new_lines": "wpautop",
-                            "esc_html": 0
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_5e89277397900",
+                            "label": "Reduced Bottom Spacing",
+                            "name": "reduced_bottom_spacing",
+                            "type": "true_false",
+                            "instructions": "Each content row places about 75 pixels of space above and below the content. This creates a nice amount space between content making it easy to read. However there may be times when two rows of content belong closer together. Click this box to remove the bottom spacing of this row, bringing it closer to the following row.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
                         },
                         {
                             "key": "field_5e6ce684628bf",
@@ -1395,6 +1179,42 @@
                                     "delay": 0
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_5e89273e978fe",
+                            "label": "Advanced Options",
+                            "name": "",
+                            "type": "accordion",
+                            "instructions": "Click here to open advanced controls that allow you to fine tune this part of your website. Most users will not need need these controls.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "open": 0,
+                            "multi_expand": 0,
+                            "endpoint": 0
+                        },
+                        {
+                            "key": "field_5e892752978ff",
+                            "label": "Custom CSS Classes",
+                            "name": "custom_css_classes",
+                            "type": "text",
+                            "instructions": "Advanced Option: Placing class names here (separated by a standard space) will assign them to to this section's container. This will allow you to easily target this section with custom CSS.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
                         }
                     ],
                     "min": "",
@@ -1432,5 +1252,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1585489617
+    "modified": 1586047002
 }
