@@ -52,9 +52,25 @@ Developed the Understrap child theme that we based the Genius Stack theme from. 
 
 
 ## Current Version
-Current theme version: 1.0.0
+Current theme version: 1.0.1
 
 ### Version Notes
+
+#### V. 1.0.1
+**Date: April 5, 2020**
+
+* General code cleanup
+* Gravity Forms now adopt brand colors set in Theme Options
+* Embedded iFrames such as from YouTube are now responsive
+* Clean up of ACF fields with instructions, styling and a custom WYSIWYG toolbar
+* Style clean up of  Call to Action (CTA) display
+* Disabled wp_meta_box on pages to make edit screens load faster
+* Refined Editor user role admin menu access
+* Added no-lazyload to slider images to avoid page jump when slider not visible
+* Added blur-in effect to lazyload images for easy transition
+* Finalized custom fields for the Testimonial custom post type.
+* Added styling to testimonial slider
+
 
 #### V. 1.0.0
 **Date: March 31, 2020**
