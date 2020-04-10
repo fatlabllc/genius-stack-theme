@@ -40,9 +40,13 @@ $understrap_child_includes = array(
 	'/accesibility.php',      // WCAG/ADA compliance stuff
 	'/fatlab.php',            // fatlab favored tweaks and custom functions
 	'/colors.php',            // color functions
-	'/image-sizes.php',       // iamge sizes
+	'/image-sizes.php',       // image sizes
+	'/custom.php',          // site specific custom functions (uncomment to use / custom.php not in repo)
 );
 
 foreach ( $understrap_child_includes as $file ) {
-	require_once get_stylesheet_directory() . '/inc' . $file;
+	$function_file = get_stylesheet_directory() . '/inc' . $file;
+	if (file_exists($function_file)){
+		require_once $function_file;
+	}
 }
