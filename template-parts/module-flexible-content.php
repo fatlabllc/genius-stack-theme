@@ -31,7 +31,7 @@ if (have_rows('flexible_content')) {
 		} else {
 			$bottom_pad_class = '';
 		}
-		echo '<div id="row'.$row_counter.'" class="container-fluid row-pad row-'.$row_counter.$bottom_pad_class.' '.$layout.' '.$bg_color.$count_class.$classes.'">';
+		echo '<span class="anchor" id="row'.$row_counter.'"></span><div class="container-fluid row-pad row-'.$row_counter.$bottom_pad_class.' '.$layout.' '.$bg_color.$count_class.$classes.'">';
 		// Load the ACF template
 		load_fcf_template();
 		echo '</div>';

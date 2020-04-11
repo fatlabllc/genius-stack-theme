@@ -180,3 +180,11 @@ img.lazyloaded {
 	/* we set the opacity to 1 to do the magic */
 	opacity: 1;
 }
+
+// adjust anchors for sticky header and better placement
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
