@@ -60,8 +60,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</div>
         <div class="row">
-            <div class="col-md-12 copyright">
+            <div class="col-md-6 copyright">
                 <p>&#169; <?php echo date("Y");?> <?php the_field('flws_copyright_line','option');?></p>
+            </div>
+            <div class="col-md-6 site-credit">
+                <p><img src="/wp-content/themes/genius-stack-theme/images/genius-stack-logo-sm.png" alt="a Genius Stack WordPress Website"> <a href="https://thegeniusstack.com/" target="_blank">A Genius Stack Website</a></p>
             </div>
         </div>
 	</div><!-- container end -->

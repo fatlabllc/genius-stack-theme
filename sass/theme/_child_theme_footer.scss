@@ -5,10 +5,16 @@
     line-height: 22px;
     text-align: center;
   }
-  .copyright p {
-    text-align: center;
+  .copyright p,.site-credit p {
     margin-top: 25px;
     font-size: 14px;
+  }
+  .site-credit p {
+    text-align: right;
+    img {
+      margin-right: 10px;
+      margin-top: -5px;
+    }
   }
   ul {
     list-style: none;
