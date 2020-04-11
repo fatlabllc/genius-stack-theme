@@ -1,8 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
 body {
   color: $default-gray;
   font-size: 20px;
   background-color: $default-light-gray;
 }
+
 h1,h2,h3,h4,h5,h6 {
   margin-bottom: 25px;
 }
