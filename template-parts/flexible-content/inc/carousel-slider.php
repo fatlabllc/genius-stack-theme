@@ -27,7 +27,7 @@ if($default_header){
 	</div>
 	<div id="mobile-hero-text">
 		<div class="container">
-			<p><?php echo $text;?></p>
+			<?php echo $text;?>
 		</div>
 	</div>
 </div>
