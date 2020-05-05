@@ -33,17 +33,22 @@
       display: inline-block;
       margin-right: 25px;
       :before {
-        content: "\f0da"; /* FontAwesome Unicode */
-        font-family: FontAwesome;
-        display: inline-block;
+        display:none;
+        content: "\f105"; /* FontAwesome Unicode */
+        font-family: "Font Awesome 5 Solid";
         font-size: 20px;
         margin-left: -27px;
         width: 25px;
+
       }
       a {
         font-size: 16px;
         font-weight: 500;
         padding-right: 10px;
+        .fa-angle-right {
+          margin-left: -25px;
+          width: 25px;
+        }
       }
     }
   }

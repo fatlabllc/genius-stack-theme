@@ -5501,10 +5501,10 @@ ul#main-menu {
       display: inline-block;
       margin-right: 25px; }
       #wrapper-footer .footer-menu-col ul li :before {
-        content: "\f0da";
+        display: none;
+        content: "\f105";
         /* FontAwesome Unicode */
-        font-family: FontAwesome;
-        display: inline-block;
+        font-family: "Font Awesome 5 Solid";
         font-size: 20px;
         margin-left: -27px;
         width: 25px; }
@@ -5512,6 +5512,9 @@ ul#main-menu {
         font-size: 16px;
         font-weight: 500;
         padding-right: 10px; }
+        #wrapper-footer .footer-menu-col ul li a .fa-angle-right {
+          margin-left: -25px;
+          width: 25px; }
   #wrapper-footer .address-col {
     padding-left: 15px;
     text-align: center;
