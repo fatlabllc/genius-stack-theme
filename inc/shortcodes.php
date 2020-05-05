@@ -10,19 +10,19 @@ function social_media() {
 
 	$icon_display = '';
 	if($twitter){
-		$icon_display .= '<li><a href="'.$twitter.'" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>';
+		$icon_display .= '<li><a href="'.$twitter.'" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>';
 	}
 	if($facebook){
-		$icon_display .= '<li><a href="'.$facebook.'" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>';
+		$icon_display .= '<li><a href="'.$facebook.'" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>';
 	}
 	if($youtube){
-		$icon_display .= '<li><a href="'.$youtube.'" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>';
+		$icon_display .= '<li><a href="'.$youtube.'" target="_blank"><i class="fab fa-youtube-square"></i></i></a></li>';
 	}
 	if($linkedin){
-		$icon_display .= '<li><a href="'.$linkedin.'" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>';
+		$icon_display .= '<li><a href="'.$linkedin.'" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>';
 	}
 	if($instagram){
-		$icon_display .= '<li><a href="'.$instagram.'" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>';
+		$icon_display .= '<li><a href="'.$instagram.'" target="_blank"><i class="fab fa-instagram-square"></i></i></a></li>';
 	}
 	$social_media = '<div class="social-media shortcode"><ul>'.$icon_display.'</ul></div>';
 	return $social_media;
