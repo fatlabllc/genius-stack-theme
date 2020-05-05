@@ -43,6 +43,11 @@ $container = get_theme_mod( 'understrap_container_type' );
         <?php the_field('page_specific_scripts');?>
         <!-- // page specific scripts -->
 	<?php }?>
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
+        }
+    </script>
 </head>
 <body <?php body_class(); ?>>
 <?php the_field('flws_body_scripts','option');?>
