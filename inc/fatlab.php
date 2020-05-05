@@ -91,14 +91,3 @@ function remove_block_css() {
 	wp_dequeue_style( 'wc-block-style' ); // WooCommerce
 	wp_dequeue_style( 'storefront-gutenberg-blocks' ); // Storefront theme
 }
-
-// move jquery to footer.
-function starter_scripts() {
-	wp_deregister_script( 'jquery' );
-	wp_register_script( 'jquery', includes_url( '/js/jquery/jquery.js' ), false, NULL, true );
-	wp_enqueue_script( 'jquery' );
-
-	wp_enqueue_style( 'starter-style', get_stylesheet_uri() );
-	wp_enqueue_script( 'includes', get_template_directory_uri() . '/js/min/includes.min.js', '', '', true );
-}
-add_action( 'wp_enqueue_scripts', 'starter_scripts' );
