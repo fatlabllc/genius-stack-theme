@@ -1,7 +1,9 @@
 #testimonials{
 	min-height: 300px;
-	padding-left:50px;
-	padding-right: 50px;
+	//padding-left:50px;
+	//padding-right: 50px;
+	max-width: 85%;
+	margin:auto;
 	.quote p{
 		font-size: 25px;
 		line-height: 32px;
@@ -20,5 +22,9 @@
 	}
 	.company {
 		font-size: 15px;
+	}
+	.carousel-indicators li {
+		background-color: transparent;
+		text-indent: 0;
 	}
 }
