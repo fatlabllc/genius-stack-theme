@@ -52,9 +52,23 @@ Developed the Understrap child theme that we based the Genius Stack theme from. 
 
 
 ## Current Version
-Current theme version: 1.0.1
+Current theme version: 1.0.2
 
 ### Version Notes
+
+#### V. 1.0.2
+**Date: May 11, 2020**
+
+* Upgarded FontAwesome 4.x to 5.x (using js kit for faster lighter file size)
+* Optimzied script load for faster loading
+* Removed unused css for faster loading
+* Cleaned up testimonial module styling
+* Cleaned up slider mobile view
+* Added Genius Stack credit to footer
+* Cleaned up flex content type Text with Image styling
+* Each content row now produces anchor for partial page linking w// smooth scrolling
+* Inlcuded default contact form for import into Gravity Forms
+* Added ability to load site specific custom functions
 
 #### V. 1.0.1
 **Date: April 5, 2020**
