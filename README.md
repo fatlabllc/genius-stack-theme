@@ -59,7 +59,7 @@ Current theme version: 1.0.2
 #### V. 1.0.2
 **Date: May 11, 2020**
 
-* Upgarded FontAwesome 4.x to 5.x (using js kit for faster lighter file size)
+* Upgraded FontAwesome 4.x to 5.x (using js kit for faster lighter file size)
 * Optimzied script load for faster loading
 * Removed unused css for faster loading
 * Cleaned up testimonial module styling
