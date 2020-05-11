@@ -563,7 +563,15 @@
             "type": "select",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb9d06266b62",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -586,6 +594,77 @@
             "return_format": "value",
             "ajax": 0,
             "placeholder": ""
+        },
+        {
+            "key": "field_5eb9d06266b62",
+            "label": "Use Custom Font",
+            "name": "flws_use_custom_font",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5eb9d13366b63",
+            "label": "Custom Font Script",
+            "name": "flws_custom_font_script",
+            "type": "acf_code_field",
+            "instructions": "When using a third-party font provider, they will typically provide you a small snippet to include within the header of your site. Simply include that here. Please edit the CSS code provided below to work with your custom font.",
+            "required": 1,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb9d06266b62",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "body {\r\n   font-family: \"Roboto Slab\", serif;\r\n}\r\nh1,h2,h3,h4,h5,h6{\r\n   font-family: \"Raleway\", sans-serif;\r\n}",
+            "placeholder": "",
+            "mode": "htmlmixed",
+            "theme": "tomorrow-night-bright"
+        },
+        {
+            "key": "field_5eb9d3798614b",
+            "label": "Custom Font Styles",
+            "name": "flws_custom_font_styles",
+            "type": "acf_code_field",
+            "instructions": "To use custom fonts you must provide CSS styling for the main body and headers.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5eb9d06266b62",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "body {font-family: \"Roboto Slab\", serif;}h1,h2,h3,h4,h5,h6{font-family: \"Raleway\", sans-serif;}",
+            "placeholder": "",
+            "mode": "css",
+            "theme": "tomorrow-night-bright"
         }
     ],
     "location": [
@@ -605,5 +684,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1585418332
+    "modified": 1589236830
 }

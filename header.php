@@ -35,9 +35,9 @@ $container = get_theme_mod( 'understrap_container_type' );
         </style>
     <?php }?>
 	<!-- //theme added css -->
-    <!-- call google fonts -->
+    <!-- call fonts -->
 	<?php echo flws_get_fonts();?>
-	<!-- // call google fonts -->
+	<!-- // call fonts -->
 	<?php if(get_field('page_specific_scripts')){?>
         <!-- page specific scripts -->
         <?php the_field('page_specific_scripts');?>
