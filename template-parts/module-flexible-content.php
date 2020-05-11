@@ -8,6 +8,8 @@ if (have_rows('flexible_content')) {
 		the_row();
 		// get the flex content module layout
 		$layout = get_row_layout();
+		// incase there is a slash in this, cleanup so we have a nice class name
+		$layout_class = str_replace('/','-',$layout);
 		//get row background color
 		$bg_color = get_sub_field('background_color');
 		$bg_color = row_background_color($bg_color);
@@ -31,7 +33,7 @@ if (have_rows('flexible_content')) {
 		} else {
 			$bottom_pad_class = '';
 		}
-		echo '<span class="anchor" id="row'.$row_counter.'"></span><div class="container-fluid row-pad row-'.$row_counter.$bottom_pad_class.' '.$layout.' '.$bg_color.$count_class.$classes.'">';
+		echo '<span class="anchor" id="row'.$row_counter.'"></span><div class="container-fluid row-pad row-'.$row_counter.$bottom_pad_class.' '.$layout_class.' '.$bg_color.$count_class.$classes.'">';
 		// Load the ACF template
 		load_fcf_template();
 		echo '</div>';
