@@ -228,7 +228,7 @@
             "key": "field_5d829737bdf7f",
             "label": "Header Scripts",
             "name": "flws_header_scripts",
-            "type": "textarea",
+            "type": "acf_code_field",
             "instructions": "Places scripts in the header, to be used for third-party marketing and tracking snippets when instructed to be placed in header.",
             "required": 0,
             "conditional_logic": 0,
@@ -239,15 +239,14 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "mode": "htmlmixed",
+            "theme": "tomorrow-night-bright"
         },
         {
             "key": "field_5e64051c21789",
             "label": "Body Scripts",
             "name": "flws_body_scripts",
-            "type": "textarea",
+            "type": "acf_code_field",
             "instructions": "When using third-party embeds, trackers and advertising solutions, you may be instructed to place code snippets within the body tag of the website. Place these here.",
             "required": 0,
             "conditional_logic": 0,
@@ -258,15 +257,14 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "mode": "htmlmixed",
+            "theme": "tomorrow-night-bright"
         },
         {
             "key": "field_5d82977bbdf80",
             "label": "Footer Scripts",
             "name": "flws_footer_scripts",
-            "type": "textarea",
+            "type": "acf_code_field",
             "instructions": "Places scripts in the footer, to be used for third-party marketing and tracking snippets when instructed to place in footer.",
             "required": 0,
             "conditional_logic": 0,
@@ -277,15 +275,14 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "mode": "htmlmixed",
+            "theme": "tomorrow-night-bright"
         },
         {
             "key": "field_5d8297abbdf81",
             "label": "Custom CSS",
             "name": "flws_custom_css",
-            "type": "textarea",
+            "type": "acf_code_field",
             "instructions": "Place custom css rules here, this will apply to to every page in the site.",
             "required": 0,
             "conditional_logic": 0,
@@ -296,9 +293,8 @@
             },
             "default_value": "",
             "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "mode": "htmlmixed",
+            "theme": "tomorrow-night-bright"
         },
         {
             "key": "field_5d840ba20bd7b",
@@ -684,5 +680,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1589236830
+    "modified": 1589237420
 }
