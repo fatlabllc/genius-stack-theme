@@ -5506,13 +5506,12 @@ ul#main-menu {
         /* FontAwesome Unicode */
         font-family: "Font Awesome 5 Solid";
         font-size: 20px;
-        margin-left: -27px;
-        width: 25px; }
+        margin-left: -27px; }
       #wrapper-footer .footer-menu-col ul li a {
         font-size: 16px;
         font-weight: 500;
         padding-right: 10px; }
-        #wrapper-footer .footer-menu-col ul li a .fa-angle-right {
+        #wrapper-footer .footer-menu-col ul li a .fa-f105 {
           margin-left: -25px;
           width: 25px; }
   #wrapper-footer .address-col {
@@ -5929,8 +5928,8 @@ ul#main-menu {
 
 #testimonials {
   min-height: 300px;
-  padding-left: 50px;
-  padding-right: 50px; }
+  max-width: 85%;
+  margin: auto; }
   #testimonials .quote p {
     font-size: 25px;
     line-height: 32px;
@@ -5945,6 +5944,9 @@ ul#main-menu {
     font-size: 17px; }
   #testimonials .company {
     font-size: 15px; }
+  #testimonials .carousel-indicators li {
+    background-color: transparent;
+    text-indent: 0; }
 
 .error404 .notfound {
   margin-bottom: 75px; }

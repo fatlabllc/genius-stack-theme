@@ -74,5 +74,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php  include( locate_template( 'template-parts/module-cookie-consent.php', false, false ) ); ?>
 <!-- theme added footer scripts -->
 <?php the_field('flws_footer_scripts','option');?>
+
+
+<script src="https://kit.fontawesome.com/770ba6c64f.js" crossorigin="anonymous"></script>
 </body>
 </html>
