@@ -7,13 +7,13 @@
   }
   .carousel-caption {
     max-width: 1140px;
-    margin:auto;
+    //margin:auto;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
+    text-align: inherit;
     p {
       font-size: 46px;
-      text-align: center;
       display:none;
       background: rgba(255, 255, 255, 0.7);
       padding:25px;

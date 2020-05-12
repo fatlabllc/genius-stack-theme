@@ -66,10 +66,10 @@
                                     "mime_types": ""
                                 },
                                 {
-                                    "key": "field_5e67e6ce4926b",
-                                    "label": "Text Overlay",
-                                    "name": "hero_text_overlay",
-                                    "type": "wysiwyg",
+                                    "key": "field_5eb9dd9ad5366",
+                                    "label": "Display Text Over Image",
+                                    "name": "hero_display_text_over_image",
+                                    "type": "true_false",
                                     "instructions": "",
                                     "required": 0,
                                     "conditional_logic": 0,
@@ -78,9 +78,70 @@
                                         "class": "",
                                         "id": ""
                                     },
+                                    "message": "",
+                                    "default_value": 0,
+                                    "ui": 0,
+                                    "ui_on_text": "",
+                                    "ui_off_text": ""
+                                },
+                                {
+                                    "key": "field_5eb9dc78d5365",
+                                    "label": "Display Text Postiion",
+                                    "name": "hero_display_text_position",
+                                    "type": "select",
+                                    "instructions": "Determine how the overlay text will be positioned.",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5eb9dd9ad5366",
+                                                "operator": "==",
+                                                "value": "1"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "center": "Center",
+                                        "right": "Right Side",
+                                        "left": "Left Side"
+                                    },
+                                    "default_value": [],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 0,
+                                    "return_format": "value",
+                                    "ajax": 0,
+                                    "placeholder": ""
+                                },
+                                {
+                                    "key": "field_5e67e6ce4926b",
+                                    "label": "Text Overlay",
+                                    "name": "hero_text_overlay",
+                                    "type": "wysiwyg",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5eb9dd9ad5366",
+                                                "operator": "==",
+                                                "value": "1"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
                                     "default_value": "",
                                     "tabs": "all",
-                                    "toolbar": "basic",
+                                    "toolbar": "genius_stack_simple",
                                     "media_upload": 0,
                                     "delay": 0
                                 },
@@ -91,7 +152,15 @@
                                     "type": "true_false",
                                     "instructions": "",
                                     "required": 0,
-                                    "conditional_logic": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5eb9dd9ad5366",
+                                                "operator": "==",
+                                                "value": "1"
+                                            }
+                                        ]
+                                    ],
                                     "wrapper": {
                                         "width": "",
                                         "class": "",
@@ -110,7 +179,15 @@
                                     "type": "link",
                                     "instructions": "",
                                     "required": 0,
-                                    "conditional_logic": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_5eb9dd9ad5366",
+                                                "operator": "==",
+                                                "value": "1"
+                                            }
+                                        ]
+                                    ],
                                     "wrapper": {
                                         "width": "",
                                         "class": "",
@@ -1252,5 +1329,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1586047604
+    "modified": 1589239608
 }

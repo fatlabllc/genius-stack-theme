@@ -12,6 +12,8 @@
                 while ( have_rows( 'hero_images' ) ): the_row();
                     $count ++;
                     $image = get_sub_field( 'hero_image' );
+                    $show_text = get_sub_field('hero_display_text_over_image');
+	                $text_position = get_sub_field('hero_display_text_position');
                     $text  = get_sub_field( 'hero_text_overlay' );
                     include( locate_template( 'template-parts/flexible-content/inc/carousel-slider.php', false, false ) );
                 endwhile;

@@ -59,7 +59,7 @@ add_filter( 'acf/fields/wysiwyg/toolbars' , 'my_toolbars'  );
 function my_toolbars( $toolbars )
 {
 	$toolbars['Genius Stack Simple' ] = array();
-	$toolbars['Genius Stack Simple' ][1] = array('bold' , 'italic' , 'underline' , 'forecolor');
+	$toolbars['Genius Stack Simple' ][1] = array('formatselect','bold' , 'italic' , 'underline' , 'forecolor', 'alignleft', 'aligncenter', 'alignright');
 	return $toolbars;
 }
 
