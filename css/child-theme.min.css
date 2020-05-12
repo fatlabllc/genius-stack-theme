@@ -5582,10 +5582,6 @@ ul#main-menu {
     display: none; }
     #hero .carousel-caption .slide-text p {
       font-size: 26px; }
-    #hero .carousel-caption .slide-text h1, #hero .carousel-caption .slide-text h2, #hero .carousel-caption .slide-text h3, #hero .carousel-caption .slide-text h4, #hero .carousel-caption .slide-text h5, #hero .carousel-caption .slide-text h6, #hero .carousel-caption .slide-text p {
-      display: inline-block;
-      clear: both;
-      float: left; }
 
 #hero a.button {
   display: inline-block;

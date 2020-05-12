@@ -20,22 +20,21 @@
     right:0;
     background:rgba(255,255,255,0.6);
   }
-  .carousel-item {
-    //display: inline-block;
-  }
   .carousel-caption {
     margin: auto;
     max-width: 1140px;
-    //margin:auto;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
+
     .slide-text {
       text-align: center;
-      display:none;
+      display: none;
+
       p {
         font-size: 26px;
       }
+    }
   }
   a.button {
     display: inline-block;
@@ -59,11 +58,11 @@
   }
 }
 //Mobile Stuff
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #hero {
     .carousel-caption {
       .slide-text {
-        display:block;
+        display: block;
       }
     }
   }
