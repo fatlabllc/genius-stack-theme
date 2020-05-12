@@ -56,7 +56,7 @@ function button( $atts ){
 		'target' => '_self'
 	), $atts ) );
 
-	$button_snippet = '<div class="button-container"><a href="'.$url.'" target="'.$target.'" class="button">'.$text.'</a></div>';
+	$button_snippet = '<a href="'.$url.'" target="'.$target.'" class="button">'.$text.'</a>';
 	return $button_snippet;
 }
 add_shortcode('button', 'button');

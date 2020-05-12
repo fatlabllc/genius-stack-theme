@@ -10,7 +10,7 @@ if($default_header){
 	<img src="<?php echo $image['url']; ?>" alt="<?php echo $alt_text; ?>" class="img-fluid" data-no-lazy="1">
 	<div class="carousel-caption d-md-block align-middle">
 		<?php if($show_text){?>
-            <div class="row">
+            <div class="row slide-text">
                 <?php if($text_position == 'full'){?>
                     <div class="col-md-12">
 	                    <?php echo $text;?>
@@ -32,7 +32,7 @@ if($default_header){
 		<?php }?>
 	</div>
 	<div id="mobile-hero-text">
-		<div class="container">
+		<div class="container slide-text">
 			<?php echo $text;?>
 		</div>
 	</div>

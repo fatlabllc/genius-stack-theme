@@ -5557,36 +5557,35 @@ ul#main-menu {
   display: inline-block; }
 
 #hero .carousel-caption {
+  margin: auto;
   max-width: 1140px;
   top: 50%;
   transform: translateY(-50%);
-  bottom: initial;
-  text-align: inherit; }
-  #hero .carousel-caption p {
-    font-size: 46px;
-    display: none;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 25px;
-    line-height: 50px; }
+  bottom: initial; }
+  #hero .carousel-caption .slide-text {
+    text-align: center;
+    display: none; }
+    #hero .carousel-caption .slide-text p {
+      font-size: 26px; }
 
-#hero .cta {
-  margin-top: 20px; }
+#hero a.button {
+  display: inline-block;
+  margin: 15px 0 25px 0; }
 
 #hero.header {
   margin-bottom: 75px; }
 
 #mobile-hero-text {
   display: block;
-  text-align: center;
   padding: 25px 0; }
+  #mobile-hero-text h1, #mobile-hero-text h2, #mobile-hero-text h3, #mobile-hero-text h4, #mobile-hero-text h5, #mobile-hero-text h6, #mobile-hero-text p {
+    text-align: center !important; }
   #mobile-hero-text p {
-    font-size: 26px; }
-    #mobile-hero-text p br {
-      display: none; }
+    font-size: 20px; }
 
 @media (min-width: 992px) {
-  #hero .carousel-caption p {
-    display: inline-block; }
+  #hero .carousel-caption .slide-text {
+    display: block; }
   #mobile-hero-text {
     display: none; } }
 
