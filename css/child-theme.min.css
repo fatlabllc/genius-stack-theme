@@ -5553,8 +5553,23 @@ ul#main-menu {
 #hero .img-fluid {
   width: 100%; }
 
-#hero carousel-item {
-  display: inline-block; }
+#hero .carousel-item.overlay-dark:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+#hero .carousel-item.overlay-light:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.6); }
 
 #hero .carousel-caption {
   margin: auto;
@@ -5567,6 +5582,10 @@ ul#main-menu {
     display: none; }
     #hero .carousel-caption .slide-text p {
       font-size: 26px; }
+    #hero .carousel-caption .slide-text h1, #hero .carousel-caption .slide-text h2, #hero .carousel-caption .slide-text h3, #hero .carousel-caption .slide-text h4, #hero .carousel-caption .slide-text h5, #hero .carousel-caption .slide-text h6, #hero .carousel-caption .slide-text p {
+      display: inline-block;
+      clear: both;
+      float: left; }
 
 #hero a.button {
   display: inline-block;

@@ -2,8 +2,26 @@
   .img-fluid {
     width: 100%;
   }
-  carousel-item {
-    display: inline-block;
+  .carousel-item.overlay-dark:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+  }
+  .carousel-item.overlay-light:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(255,255,255,0.6);
+  }
+  .carousel-item {
+    //display: inline-block;
   }
   .carousel-caption {
     margin: auto;
@@ -18,7 +36,6 @@
       p {
         font-size: 26px;
       }
-    }
   }
   a.button {
     display: inline-block;

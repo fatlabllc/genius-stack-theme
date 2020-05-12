@@ -85,6 +85,32 @@
                                     "ui_off_text": ""
                                 },
                                 {
+                                    "key": "field_5ebb2e0c94902",
+                                    "label": "Add Transparent Image Overlay",
+                                    "name": "hero_transparentimage_overlay",
+                                    "type": "select",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "choices": {
+                                        "none": "None",
+                                        "light": "Light",
+                                        "dark": "Dark"
+                                    },
+                                    "default_value": [],
+                                    "allow_null": 0,
+                                    "multiple": 0,
+                                    "ui": 0,
+                                    "return_format": "value",
+                                    "ajax": 0,
+                                    "placeholder": ""
+                                },
+                                {
                                     "key": "field_5eb9dc78d5365",
                                     "label": "Display Text Postiion",
                                     "name": "hero_display_text_position",
@@ -1279,5 +1305,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1589321388
+    "modified": 1589325396
 }
