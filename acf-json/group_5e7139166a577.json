@@ -151,56 +151,6 @@
                     "toolbar": "genius_stack_simple",
                     "media_upload": 0,
                     "delay": 0
-                },
-                {
-                    "key": "field_5e713a990b004",
-                    "label": "Show CTA Button",
-                    "name": "show_cta_button",
-                    "type": "true_false",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": [
-                        [
-                            {
-                                "field": "field_5eb9de564bc70",
-                                "operator": "==",
-                                "value": "1"
-                            }
-                        ]
-                    ],
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "message": "",
-                    "default_value": 0,
-                    "ui": 0,
-                    "ui_on_text": "",
-                    "ui_off_text": ""
-                },
-                {
-                    "key": "field_5e713aab0b005",
-                    "label": "CTA Button Link",
-                    "name": "hero_cta_button_link",
-                    "type": "link",
-                    "instructions": "",
-                    "required": 0,
-                    "conditional_logic": [
-                        [
-                            {
-                                "field": "field_5eb9de564bc70",
-                                "operator": "==",
-                                "value": "1"
-                            }
-                        ]
-                    ],
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "return_format": "array"
                 }
             ]
         },
@@ -260,5 +210,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1589242191
+    "modified": 1589321358
 }
