@@ -50,3 +50,13 @@ foreach ( $understrap_child_includes as $file ) {
 		require_once $function_file;
 	}
 }
+
+add_action( 'after_setup_theme', 'mytheme_theme_setup' );
+
+if ( ! function_exists( 'mytheme_theme_setup' ) ) {
+	function mytheme_theme_setup() {
+
+		add_action( 'init', 'mytheme_buttons' );
+
+	}
+}
