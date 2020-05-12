@@ -118,40 +118,6 @@
                     "placeholder": ""
                 },
                 {
-                    "key": "field_5eb9dea34bc71",
-                    "label": "Display Text Postiion",
-                    "name": "hero_display_text_position",
-                    "type": "select",
-                    "instructions": "Determine how the overlay text will be positioned.",
-                    "required": 0,
-                    "conditional_logic": [
-                        [
-                            {
-                                "field": "field_5eb9de564bc70",
-                                "operator": "==",
-                                "value": "1"
-                            }
-                        ]
-                    ],
-                    "wrapper": {
-                        "width": "",
-                        "class": "",
-                        "id": ""
-                    },
-                    "choices": {
-                        "full": "Full Width",
-                        "right": "Right Side",
-                        "left": "Left Side"
-                    },
-                    "default_value": [],
-                    "allow_null": 0,
-                    "multiple": 0,
-                    "ui": 0,
-                    "return_format": "value",
-                    "ajax": 0,
-                    "placeholder": ""
-                },
-                {
                     "key": "field_5e713a7b0b003",
                     "label": "Text Overlay",
                     "name": "hero_text_overlay",
@@ -236,5 +202,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1589325393
+    "modified": 1589327608
 }

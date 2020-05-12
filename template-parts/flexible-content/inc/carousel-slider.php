@@ -9,27 +9,7 @@ if($default_header){
 <div class="carousel-item <?php if($count == 1) {echo 'active';} echo ' overlay-'.$overlay;?> ">
 	<img src="<?php echo $image['url']; ?>" alt="<?php echo $alt_text; ?>" class="img-fluid" data-no-lazy="1">
 	<div class="carousel-caption d-md-block align-middle">
-		<?php if($show_text){?>
-            <div class="row slide-text">
-                <?php if($text_position == 'full'){?>
-                    <div class="col-md-12">
-	                    <?php echo $text;?>
-                    </div>
-                <?php } elseif ($text_position == 'left') {?>
-                    <div class="col-md-6">
-	                    <?php echo $text;?>
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                <?php } elseif ($text_position == 'right') {?>
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6">
-	                    <?php echo $text;?>
-                    </div>
-                <?php }?>
-            </div>
-		<?php }?>
+		<?php if($show_text){echo $text;}?>
 	</div>
 	<div id="mobile-hero-text">
 		<div class="container slide-text">
