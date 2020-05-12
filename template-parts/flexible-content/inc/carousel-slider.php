@@ -20,7 +20,7 @@ if($default_header){
 		    }
 		    ?>
             <div class="row">
-                <?php if($text_position == 'center'){?>
+                <?php if($text_position == 'full'){?>
                     <div class="col-md-12">
 	                    <?php echo $text;
 	                    if($cta)

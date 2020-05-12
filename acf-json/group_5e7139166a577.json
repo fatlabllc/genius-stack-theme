@@ -113,7 +113,7 @@
                         "id": ""
                     },
                     "choices": {
-                        "center": "Center",
+                        "full": "Full Width",
                         "right": "Right Side",
                         "left": "Left Side"
                     },
@@ -260,5 +260,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1589239577
+    "modified": 1589242191
 }
