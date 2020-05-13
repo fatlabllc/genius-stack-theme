@@ -52,9 +52,19 @@ Developed the Understrap child theme that we based the Genius Stack theme from. 
 
 
 ## Current Version
-Current theme version: 1.0.2
+Current theme version: 1.1.0
 
 ### Version Notes
+#### V. 1.1.0
+**Date: May 12, 2020**
+
+Some pretty big updates pushed here, we are going to version 1.1.0
+
+* Button shortcode is now available via easy to use TinyMCE custom button
+* Added slider overlay options (light and dark)
+* Enabled code editor on css and other snippet fileds in admin
+* Added ability to load custom fonts and not use system provided fonts
+* Removed unrequired development files from public repo
 
 #### V. 1.0.2
 **Date: May 11, 2020**
