@@ -52,7 +52,12 @@ Developed the Understrap child theme that we based the Genius Stack theme from. 
 
 
 ## Current Version
-Current theme version: 1.1.0
+Current theme version: 1.2.0
+
+### Version Notes
+#### V. 1.2.0
+**Date: May 15, 2020**
+* Added ability to use an mp4 background video in page banners and sliders
 
 ### Version Notes
 #### V. 1.1.0
