@@ -2,31 +2,12 @@
   .img-fluid {
     width: 100%;
   }
-  .carousel-item.overlay-dark:after {
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.6);
-  }
-  .carousel-item.overlay-light:after {
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(255,255,255,0.6);
-  }
   .carousel-caption {
     margin: auto;
     max-width: 1140px;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
-
     .slide-text {
       text-align: center;
       display: none;
@@ -43,7 +24,7 @@
   // video background
   video {
     width:100%;
-    height: auto;
+    display: block;
   }
 }
 //only show borders if hero/slider is in first position
@@ -69,6 +50,25 @@
       .slide-text {
         display: block;
       }
+    }
+
+    .carousel-item.overlay-dark:after {
+      content:"";
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background:rgba(0,0,0,0.6);
+    }
+    .carousel-item.overlay-light:after {
+      content:"";
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background:rgba(255,255,255,0.6);
     }
   }
   #mobile-hero-text {

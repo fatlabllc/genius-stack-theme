@@ -9,7 +9,9 @@ if($default_header){
 <div class="carousel-item <?php if($count == 1) {echo 'active';} echo ' overlay-'.$overlay;?> ">
 	<img src="<?php echo $image['url']; ?>" alt="<?php echo $alt_text; ?>" class="img-fluid" data-no-lazy="1">
 	<div class="carousel-caption d-md-block align-middle">
+		<div class="slide-text">
 		<?php if($show_text){echo $text;}?>
+		</div>
 	</div>
 	<div id="mobile-hero-text">
 		<div class="container slide-text">

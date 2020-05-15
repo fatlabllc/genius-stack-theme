@@ -5553,24 +5553,6 @@ ul#main-menu {
 #hero .img-fluid {
   width: 100%; }
 
-#hero .carousel-item.overlay-dark:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6); }
-
-#hero .carousel-item.overlay-light:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.6); }
-
 #hero .carousel-caption {
   margin: auto;
   max-width: 1140px;
@@ -5589,7 +5571,7 @@ ul#main-menu {
 
 #hero video {
   width: 100%;
-  height: auto; }
+  display: block; }
 
 #hero.header {
   margin-bottom: 75px; }
@@ -5605,6 +5587,22 @@ ul#main-menu {
 @media (min-width: 992px) {
   #hero .carousel-caption .slide-text {
     display: block; }
+  #hero .carousel-item.overlay-dark:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); }
+  #hero .carousel-item.overlay-light:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6); }
   #mobile-hero-text {
     display: none; } }
 

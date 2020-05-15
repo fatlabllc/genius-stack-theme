@@ -6,7 +6,9 @@
         <source src="<?php echo $video;?>" type="video/mp4">
     </video>
     <div class="carousel-caption d-md-block align-middle">
-		<?php if($show_text){echo $text;}?>
+    <div class="slide-text">
+        <?php if($show_text){echo $text;}?>
+    </div>
     </div>
     <div id="mobile-hero-text">
         <div class="container slide-text">
