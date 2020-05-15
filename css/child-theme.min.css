@@ -5587,6 +5587,10 @@ ul#main-menu {
   display: inline-block;
   margin: 15px 0 25px 0; }
 
+#hero video {
+  width: 100%;
+  height: auto; }
+
 #hero.header {
   margin-bottom: 75px; }
 

@@ -49,13 +49,46 @@
             "button_label": "Add Banner Image",
             "sub_fields": [
                 {
+                    "key": "field_5ebdc6989e380",
+                    "label": "Format",
+                    "name": "hero_format",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "image": "Image",
+                        "video": "Video"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
                     "key": "field_5e713a650b002",
                     "label": "Image",
                     "name": "hero_image",
                     "type": "image",
                     "instructions": "We recommend using an image with a width of about 1200px so that it looks good on both and small screens. The height of the image will be respected though the size of the image will adjust responsively to larger and smaller screens.",
                     "required": 0,
-                    "conditional_logic": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ebdc6989e380",
+                                "operator": "==",
+                                "value": "image"
+                            }
+                        ]
+                    ],
                     "wrapper": {
                         "width": "",
                         "class": "",
@@ -69,6 +102,33 @@
                     "min_size": "",
                     "max_width": "",
                     "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5ebdc6f19e381",
+                    "label": "Video",
+                    "name": "hero_video",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5ebdc6989e380",
+                                "operator": "==",
+                                "value": "video"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
                     "max_size": "",
                     "mime_types": ""
                 },
@@ -202,5 +262,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1589327608
+    "modified": 1589496321
 }
